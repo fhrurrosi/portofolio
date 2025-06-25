@@ -3,8 +3,9 @@ import Hero from './Components/Hero/Hero'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden ]'>
       <Hero />
+
     </div>
   )
 }
