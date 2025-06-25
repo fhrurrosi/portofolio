@@ -7,13 +7,12 @@ import TrueFocus from '../TrueFocus/TrueFocus'
 import Threads from '../Threads/Threads'
 const Hero = () => {
   return (
-    <div className='overflow-x-hidden'>
-        <div className='flex flex-col ml-10 mr-10 h-screen items-center justify-center text text-center'>
+        <div className='relative flex flex-col h-screen items-center justify-center text text-center'>
             <div >
                 <div>
                     <SplitText
                     text="M Fahrur Rosi"
-                    className="text-[90px] font-bold text-center"
+                    className="text-[100px] font-bold text-center"
                     delay={100}
                     duration={0.6}
                     ease="power3.out"
@@ -27,8 +26,8 @@ const Hero = () => {
                 </div>
                 <div > 
                     <TrueFocus 
-                        sentence = "Eat  Code  Sleep"
-                        manualMode={true}
+                        sentence = "Eat Code Sleep"
+                        manualMode={false}
                         blurAmount={5}
                         borderColor="#ffffff"
                         animationDuration={1.5}
@@ -36,14 +35,17 @@ const Hero = () => {
 
                     />   
                 </div>
-                
-                
             </div>
-           
-       
+
+           <div style={{ width: '100%', height: '600px', position: 'absolute', top: 120, zIndex: -1}}>
+            <Threads
+                amplitude={1}
+                distance={0}
+                enableMouseInteraction={false}
+            />
+</div>             
         </div>
           
-    </div>
   )
 }
 

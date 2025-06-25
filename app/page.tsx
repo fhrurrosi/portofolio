@@ -5,7 +5,6 @@ const page = () => {
   return (
     <div className='overflow-x-hidden ]'>
       <Hero />
-
     </div>
   )
 }
