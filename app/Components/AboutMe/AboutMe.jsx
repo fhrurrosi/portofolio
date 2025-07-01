@@ -43,7 +43,7 @@ const AboutMe = () => {
                         speed={0.5}
                         scrambleChars={".:"}
 >
-                   I am an Information Technology student with a deep interest in frontend development and user interface design. My journey in tech began with a curiosity about how websites work and evolved into a strong passion for building seamless, responsive, and user-friendly web applications. Over time, I have developed a particular focus on React and Next.js—tools that I enjoy using and continue to explore to build fast, scalable, and maintainable applications with a component-driven approach. I actively seek opportunities to grow beyond the classroom by working on personal projects, collaborating with others, and staying updated with modern frontend trends, accessibility standards, and responsive design principles. Driven by a desire for continuous growth, I strive to not only improve technically but also develop strong collaboration, communication, and problem-solving skills. I believe frontend development is the perfect intersection of creativity and logic, and I aim to contribute to impactful digital solutions through thoughtful and user-focused design.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestiae eius earum commodi? Nostrum id sint, assumenda sit adipisci officiis dolore doloribus sed dolorem. Suscipit a consequuntur quibusdam consequatur repellat.
                 </ScrambledText>
             </div>
         </div>
