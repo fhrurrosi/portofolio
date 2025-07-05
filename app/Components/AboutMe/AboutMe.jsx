@@ -1,10 +1,9 @@
 import React from 'react'
 import SplitText from '../SplitText/SplitText'
 import ProfileCard from '../ProfileCard/ProfileCard'
-import ScrambledText from '../ScrambledText/ScrambledText'
 const AboutMe = () => {
     return (
-        <div className='flex items-start justify-start h-screen w-full px-20'>
+        <div id='about' className='flex items-start justify-start h-screen w-full px-20'>
             <div className='pt-[50px] '>
                 <ProfileCard
                     name="M Fahrur Rosi"
@@ -13,7 +12,7 @@ const AboutMe = () => {
                     status="Online"
                     contactText="Contact Me"
                     avatarUrl="/assets/kucing.png"
-                    iconUrl="/assets/Codeicon.pngscro"
+                    iconUrl="/assets/Codeicon.png"
                     showUserInfo={true}
                     enableTilt={true}
                     onContactClick={() => console.log('Contact clicked')}
@@ -35,19 +34,16 @@ const AboutMe = () => {
                         textAlign="center"
                     />
                 </div>
-                <div >
-                    <ScrambledText
-                        className='m-0 text-[16px]'
-                        radius={100}
-                        duration={1.2}
-                        speed={0.5}
-                        scrambleChars={".:"}
->
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestiae eius earum commodi? Nostrum id sint, assumenda sit adipisci officiis dolore doloribus sed dolorem. Suscipit a consequuntur quibusdam consequatur repellat.
-                </ScrambledText>
+                <div>
+                    <p className='text-[24px]'>  Hi, I'm Rosi — a frontend developer passionate about creating clean, interactive, and responsive user interfaces.
+                        I specialize in building websites with modern technologies like React, Next.js, and Tailwind CSS. My journey began with curiosity about how websites work, and now I enjoy turning designs into real, functional experiences.
+                        In every project, I focus on performance, accessibility, and great user experience. I’m always learning, experimenting with animations, motion design, and exploring new frontend tools.
+                        Outside of coding, I enjoy playing games, exploring new UI inspirations, and occasionally diving into backend logic when needed.
+                    </p>
+
+                </div>
             </div>
-        </div>
-          
+
         </div >
     )
 }
